@@ -1,0 +1,6 @@
+@AssetInventory.API_HostAddress = http://localhost:5196
+
+GET {{AssetInventory.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
