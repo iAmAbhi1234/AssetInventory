@@ -7,14 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\Commands\CreateAsset\" />
-    <Folder Include="Assets\Commands\DeleteAsset\" />
-    <Folder Include="Assets\Commands\UpdateAsset\" />
-    <Folder Include="Assets\Queries\GetAssets\" />
-    <Folder Include="Assets\Queries\GetAssetById\" />
+    <Folder Include="Assets\Queries\GetAvailableAssets\" />
+    <Folder Include="Assets\Queries\GetAssetHistory\" />
     <Folder Include="Common\Behaviours\" />
-    <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Mappings\" />
+    <Folder Include="Users\Commands\ChangePassword\" />
+    <Folder Include="Users\Commands\PromoteToAdmin\" />
+    <Folder Include="Users\Commands\RegisterUser\" />
+    <Folder Include="Users\Queries\GetUserById\" />
+    <Folder Include="Users\Queries\GetAllUsers\" />
+    <Folder Include="Users\Queries\GetUsersByRole\" />
   </ItemGroup>
 
   <ItemGroup>
