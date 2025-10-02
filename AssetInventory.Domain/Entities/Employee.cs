@@ -19,7 +19,7 @@ namespace AssetInventory.Domain.Entities
 
         private Employee() { }
 
-        public Employee(string firstName, string lastName, string email, string department)
+        public Employee(string firstName, string lastName, string email, string department, string phone)
         {
             if (string.IsNullOrWhiteSpace(email))
             {
@@ -30,6 +30,7 @@ namespace AssetInventory.Domain.Entities
             LastName = lastName;
             Email = email;
             Department = department;
+            Phone = phone;
         }
     }
 }
